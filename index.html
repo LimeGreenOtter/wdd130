@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGO Art Portfolio</title>
+    <link rel="stylesheet" href="styles/indexstyle.css">
+</head>
+<body>
+    <header>
+        <h1>LimeGreenOtter's Art Portfolio</h1>
+        <img class = "logo" src="placeholder.png" alt"LimeGreenOtter_Logo">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Page 2</a>
+            <a href="test.html">Page 3</a>
+            <a href="test2.html">Page 4</a>
+        </nav>
+    </header>
+        
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="images/web Background.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Lionel.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/oiia Cat.png" style="width:100%">
+    </div>
+
+    <!--javascript-->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
+
+
+    <section class = "social">
+        <a href="">Youtube</a>
+        <a href="">Twitch</a>
+        <a href="">Itch.io</a>
+    </section>
+    <section class = "details">
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    </section>
+    <section class = "details">
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    </section>
+    <section class = "details">
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+    </section>
+    
+    <img src="images/Lime_Says_Hello.png" alt"LimeGreenOtter">
+    
+    <section class="project_descript">
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <video width="320" height="240" controls>
+            <source src="images/Foxbird Animation 1.mov" type="video/mov">
+            Your browser does not support the video tag
+        </video>
+    </section>
+
+
+    <section class="project_descript">
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        <video width="320" height="240" controls>
+            <source src="images/wolf_jumpscare.mkv" type="video/mkv">
+            Your browser does not support the video tag
+        </video>
+    </section>
+    
+    <footer>
+        <h3>Contact Me!</h3>
+        <section class = "social">
+            <a href="https://youtube.com/@limegreenotter?si=Old9ldwIuqb28oCp">Youtube</a>
+            <a href="https://www.twitch.tv/limegreenotter">Twitch</a>
+            <a href="https://limegreenotter.itch.io/">Itch.io</a>
+        </section>
+    </footer>
+
+</body>
+</html>

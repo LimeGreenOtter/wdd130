@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+/*
+Colors 
+#395e66
+#387d7a
+#32936f
+#26a96c
+#2bc016
+#
+
+*/
+body{
+    background-color: #32936f;
+}
+
+h1, h2, h3{
+    font-family: "Cherry Bomb One", sans-serif;
+}
+h1{
+    display: block;
+    justify-self: center;
+    z-index: 8;
+}
+p{
+    font-family: "Neuton", sans-serif;
+    font-size: small;
+    color: black;
+}
+
+/*w3schools automatci slideshow i modified*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Position the "next button" to the right */
+
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

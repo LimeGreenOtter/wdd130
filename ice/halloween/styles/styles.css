@@ -1,0 +1,67 @@
+/* Add your CSS here to style your halloween page */
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Nosifer&display=swap');
+body{
+    background-color: #381D2A;
+}
+img {
+    display: block;
+    justify-self: center;
+    border: 10px solid #4C2D78;
+    border-radius: 20%;
+    box-shadow: -1px 22px 24px 11px rgb(56, 29, 42, .5) ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #4C2D78;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    gap: 100%;
+    padding: 20px;
+}
+li{
+    display: inline;
+    justify-self: flex-start;
+    margin:40px 40px;
+    padding: 20px;
+    background-color: #EB9C35;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Nosifer', sans-serif;
+    color: #fff;
+    font-size: 3em;
+    display: block;
+    justify-self: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #91A27D, 0 0 20px #91A27D, 0 0 30px #B0EC6B, 0 0 40px #B0EC6B, 0 0 50px #B0EC6B, 0 0 60px #B0EC6B, 0 0 70px #B0EC6B;
+  }
+  to {
+    text-shadow: 0 0 20px #91A27D, 0 0 30px #6FA92D, 0 0 40px #6FA92D, 0 0 50px #6FA92D, 0 0 60px #6FA92D, 0 0 70px #6FA92D, 0 0 80px #6FA92D;
+  }
+}
+
+section{
+    background-color: #BA5624;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-sizing: 20%;
+}
+h2{
+    display: block;
+    justify-self: center;
+}
+p{
+    text-align: center;
+}
