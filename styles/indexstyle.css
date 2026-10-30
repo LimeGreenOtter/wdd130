@@ -43,7 +43,7 @@ p{
   text-align: center;
   font-family: "Cherry Bomb One", "Neuton", sans-serif;
 }
-a{
+.navlink{
   margin: 40px;
   padding: 20px;
   color: #26a96c;
@@ -78,9 +78,55 @@ a{
 
 
 .two{
-  height: 800px;
-  width: 800px;
+  height: 40%;
+  width: 40%;
   border-radius: 20px;
   display: block;
   justify-self: right;
+  margin-top: -70%;
+  margin-right: -25%;
+  margin-left: -10%;
+}
+
+.social{
+  text-align: center;
+  background-color: #395e66;
+  display: block;
+  justify-self: left;
+  z-index: 1;
+  margin-left: -10%;
+  color: #2bc016;
+  font-family: "Neuton", sans-serif;
+  font-size: x-large;
+}
+
+
+.slink{
+  display: block;
+  color: #26a96c;
+  font-family: "Neuton", sans-serif;
+  font-size: 300%;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.details{
+  display: block;
+  justify-self: center;
+  background-color: #2bc016;
+  color: #395e66;
+  font-family: "Neuton", sans-serif;
+  font-size: x-large;
+  z-index: 2;
+  width: 500px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.detailcon{
+  display: block;
+  justify-self: center;
+  margin-top: -50%;
+  margin-bottom: 20%;
 }
