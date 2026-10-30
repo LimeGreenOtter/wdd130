@@ -32,8 +32,8 @@ h1{
 }
 p{
     font-family: "Neuton", sans-serif;
-    font-size: small;
-    color: black;
+    font-size: medium;
+    color: #395e66;
 }
 .navbar{
   background-color:#395e66;
@@ -129,4 +129,40 @@ p{
   justify-self: center;
   margin-top: -50%;
   margin-bottom: 20%;
+}
+
+.project_descript{
+  display: block;
+  background-color: #26a96c;
+  border-radius: 20px;
+  justify-self: center;
+  margin-top: 10%;
+  padding: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.pd_word{
+  display: block;
+  justify-self: left;
+  text-align: center;
+  width: 60%;
+  background-color: #2bc016;
+  color: #395e66;
+  font-size: x-large;
+  padding: 2%;
+  border-radius: 20px;
+  margin-left: -10%;
+  margin-top: 1%;
+}
+
+.vid1{
+  display: block;
+  justify-self: right;
+  width: 50%;
+  height: 50%;
+  margin-right: -10%;
+  margin-top: -43%;
+  margin-bottom: 5%;
+  border-radius: 20px;
 }
