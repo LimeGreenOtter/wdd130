@@ -20,13 +20,36 @@ h1{
     display: block;
     justify-self: center;
     z-index: 8;
+    margin-bottom: -1000px;
+    padding-top: 500px;
+    font-size: 400%;
+    position: absolute;
+    color: #395e66;
+}
+.titleheader{
+  margin-bottom: -100px;
+  z-index: 7;
 }
 p{
     font-family: "Neuton", sans-serif;
     font-size: small;
     color: black;
 }
-
+.navbar{
+  background-color:#395e66;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Cherry Bomb One", "Neuton", sans-serif;
+}
+a{
+  margin: 40px;
+  padding: 20px;
+  color: #26a96c;
+  text-decoration: none;
+  font-size: xx-large;
+}
 /*w3schools automatci slideshow i modified*/
 
 * {box-sizing:border-box}
@@ -43,19 +66,6 @@ p{
   display: none;
 }
 
-
-/* Position the "next button" to the right */
-
-
-/* Caption text */
-
-
-/* Number text (1/3 etc) */
-
-
-
-
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -64,4 +74,13 @@ p{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+.two{
+  height: 800px;
+  width: 800px;
+  border-radius: 20px;
+  display: block;
+  justify-self: right;
 }
