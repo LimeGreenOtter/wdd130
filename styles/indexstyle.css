@@ -16,19 +16,14 @@ body{
 h1, h2, h3{
     font-family: "Cherry Bomb One", sans-serif;
 }
-h1{
-    display: block;
+.titleheader{
+   display: block;
     justify-self: center;
     z-index: 8;
-    margin-bottom: -1000px;
-    padding-top: 500px;
-    font-size: 400%;
+    font-size: 200%;
+    margin-top: -180px;
     position: absolute;
     color: #395e66;
-}
-.titleheader{
-  margin-bottom: -100px;
-  z-index: 7;
 }
 p{
     font-family: "Neuton", sans-serif;
@@ -38,8 +33,8 @@ p{
 .navbar{
   background-color:#395e66;
   padding: 50px;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-top: 20px;
   text-align: center;
   font-family: "Cherry Bomb One", "Neuton", sans-serif;
 }
@@ -49,6 +44,7 @@ p{
   color: #26a96c;
   text-decoration: none;
   font-size: xx-large;
+  z-index: 23;
 }
 /*w3schools automatci slideshow i modified*/
 
@@ -58,7 +54,9 @@ p{
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin-bottom: 80px;
+  display: block;
+  justify-self: center;
 }
 
 /* Hide the images by default */
@@ -78,14 +76,15 @@ p{
 
 
 .two{
-  height: 40%;
-  width: 40%;
+  height: 20%;
+  width: 20%;
   border-radius: 20px;
+  border: 10px solid #387d7a;
   display: block;
   justify-self: right;
-  margin-top: -70%;
-  margin-right: -25%;
-  margin-left: -10%;
+  margin-top: -26%;
+  margin-bottom: 10%;
+  margin-right: 5%;
 }
 
 .social{
@@ -94,7 +93,7 @@ p{
   display: block;
   justify-self: left;
   z-index: 1;
-  margin-left: -10%;
+  margin-left: 10%;
   color: #2bc016;
   font-family: "Neuton", sans-serif;
   font-size: x-large;
@@ -123,12 +122,12 @@ p{
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
+  width: 800px
 }
 .detailcon{
   display: block;
   justify-self: center;
-  margin-top: -50%;
-  margin-bottom: 20%;
+  margin-top: -25%;
 }
 
 .project_descript{
@@ -136,33 +135,137 @@ p{
   background-color: #26a96c;
   border-radius: 20px;
   justify-self: center;
-  margin-top: 10%;
-  padding: 2%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding: 1%;
+  margin: 50px;
+  width: 80%
+}
+
+.holder{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .pd_word{
   display: block;
   justify-self: left;
   text-align: center;
-  width: 60%;
+  width: 120%;
+  height: 300px;
   background-color: #2bc016;
   color: #395e66;
   font-size: x-large;
-  padding: 2%;
+  padding: 20px;
   border-radius: 20px;
-  margin-left: -10%;
-  margin-top: 1%;
+  grid-column: 1/2;
 }
 
 .vid1{
   display: block;
   justify-self: right;
-  width: 50%;
-  height: 50%;
-  margin-right: -10%;
-  margin-top: -43%;
-  margin-bottom: 5%;
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
   border-radius: 20px;
+  grid-column: 2/3;
+}
+
+footer{
+  background-color: #395e66;
+  color: #2bc016;
+  text-decoration: none;
+  font-size: x-large;
+  padding: 5px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
+}
+.fsocial{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+h3{
+  display: block;
+  justify-self: center;
+  color: #2bc016;
+  margin-top: 100px;
+}
+.flink1{
+  display: block;
+  justify-self: center;
+  padding: 20px 40px;
+  grid-column: 1/2;
+  margin: 10%;
+  text-decoration: none;
+  font-size: larger;
+  color: #2bc016;
+}
+.flink2{
+  display: block;
+  justify-self: center;
+  padding: 20px 40px;
+  grid-column: 2/3;
+  margin: 10%;
+  text-decoration: none;
+  font-size: larger;
+  color: #2bc016;
+}
+.flink3{
+  display: block;
+  justify-self: center;
+  padding: 20px 40px;
+  grid-column: 3/4;
+  margin: 10%;
+  text-decoration: none;
+  font-size: larger;
+  color: #2bc016;
+}
+
+
+/* ice css*/
+.parent{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  display: block;
+  justify-self: center;
+  background-color: #26a96c;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 10%;
+  width: 500px;
+}
+.head{
+  font-family: "Cherry Bomb One", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  color: #395e66;
+}
+.sub{
+  display: block;
+  justify-self: center;
+  font-family: "Neuton", sans-serif;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: none;
+  color: #395e66;
+}
+.sub:hover{
+  text-decoration: underline;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+/* Add rounded corners to the top left and the top right corner of the image */
+.cimg {
+  display: block;
+  border-radius: 5px 5px 0 0;
 }
