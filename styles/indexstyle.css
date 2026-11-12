@@ -25,6 +25,15 @@ h1, h2, h3{
     position: absolute;
     color: #395e66;
 }
+.logo{
+  height: 8%;
+  width:8%;
+  z-index: 10;
+  margin-bottom: -55px;
+  padding: 0;
+  display: block;
+  justify-self: left;
+}
 p{
     font-family: "Neuton", sans-serif;
     font-size: medium;
@@ -33,17 +42,18 @@ p{
 .navbar{
   background-color:#395e66;
   padding: 50px;
+  padding-bottom: 90px;
   margin-bottom: 150px;
   margin-top: 20px;
   text-align: center;
   font-family: "Cherry Bomb One", "Neuton", sans-serif;
 }
 .navlink{
-  margin: 40px;
-  padding: 20px;
+  
+  padding: 50px;
   color: #26a96c;
   text-decoration: none;
-  font-size: xx-large;
+  font-size: 270%;
   z-index: 23;
 }
 /*w3schools automatci slideshow i modified*/
@@ -82,7 +92,7 @@ p{
   border: 10px solid #387d7a;
   display: block;
   justify-self: right;
-  margin-top: -26%;
+  margin-top: -23.5%;
   margin-bottom: 10%;
   margin-right: 5%;
 }
