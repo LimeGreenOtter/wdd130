@@ -1,0 +1,129 @@
+/* #FFFAF2, #17212B, #D86645, #7D9A86 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+body{
+    background-color: #FFFAF2;
+}
+#temp{
+    background-color: #D86645;
+    padding: 20px;
+    margin: 200px 0px;
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: x-large;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-family: "Space Grotesk", sans-serif;
+    font-size: xx-large;
+    
+}
+header{
+    background-color: #7D9A86;
+}
+#homelink{
+    grid-column: 5/6;
+    margin-top: -80px;
+}
+#aboutlink{
+    grid-column: 7/8;
+    margin-top: -80px;
+}
+#recipelink{
+    grid-column: 9/10;
+    margin-top: -80px;
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+}
+.bake{
+    display: block;
+    justify-self: center;
+}
+#bakeimg{
+    display: block;
+    justify-self: left;
+    margin-right: -200px;
+    margin-left: 400px;
+}
+#baking{
+    display: block;
+    justify-self: right;
+    margin-top: 80px;
+    margin-bottom: -200px;
+    padding: 20px;
+    margin-right: 400px;
+    width:600px;
+}
+.organizer{
+    display: grid;
+    grid-column: repaet(3, 1fr);
+    
+}
+#cookie1{
+    grid-column: 1/2;
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    justify-self: center;
+    border-radius: 20px;
+}
+#cookie2{
+    grid-column: 2/3;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    justify-self: center;
+    border-radius: 20px;
+}
+#cookie3{
+    grid-column: 3/4;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    justify-self: center;
+    border-radius: 20px;
+}
+#homepglogo{
+    display: block;
+    justify-self: left;
+    height: 400px;
+    margin-left: 350px;
+}
+.bakebutton{
+    display: block;
+    justify-self: right;
+    margin-top: -200px;
+    padding: 20px;
+    background-color: #D86645;
+    font-size: xx-large;
+    font-family: "Space Grotesk", sans-serif;
+    margin-right: 500px;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+footer{
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #7D9A86;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#homeflink{
+    margin-top: 50px;
+}
+#aboutflink{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: underline;
+}
