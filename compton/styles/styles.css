@@ -38,6 +38,38 @@ p{
     font-family: "Inter", sans-serif;
     font-size: x-large;
 }
+h1{
+    font-family: "Space Grotesk", sans-serif;
+}
+#aboutme{
+    font-size: 600%;
+    display: block;
+    justify-self: center;
+    padding: 5%;
+    color: #17212B;
+}
+#descript{
+    background-color: #D86645;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+#deegan{
+    border-radius: 50%;
+    border: solid 10px #17212B;
+    grid-column: 3/4;
+}
+#aboutdescript{
+    display: block;
+    justify-self: center;
+    grid-column:  5/8;
+    font-size: xx-large;
+    margin-top: 80px;
+    background-color: #7D9A86;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
 .bake{
     display: block;
     justify-self: center;
@@ -126,4 +158,13 @@ a{
 }
 a :hover{
     text-decoration: underline;
+}
+.recipesection{
+    background-color: #D86645;
+    width: 1000px;
+    height: 300px;
+    display: block;
+    justify-self: center;
+    margin: 20px;
+    border-radius: 20px;
 }
